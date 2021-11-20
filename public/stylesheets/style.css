@@ -6,3 +6,53 @@ body {
 a {
   color: #00B7FF;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    height: 350px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    resize: none;
+}
+
+input[type="text"] {
+    padding: 5px;
+}
+
+input[type="submit"] {
+    padding: 5px;
+    width: 200px;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message {
+    margin-left: 10px;
+    width: 90%;
+}
+
+.post {
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.user {
+    width: 10%;
+}

@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  form(action="/new", method="POST")
+    h2 Post a New Message
+    label(for="author")  
+        input(type="text", name="author", placeholder="Enter your name...")
+    label(for="message")
+        textarea(name="message", placeholder="Enter your message...")
+    input(type="submit") 
